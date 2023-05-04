@@ -1,0 +1,1 @@
+It is a string with smallest and largest word

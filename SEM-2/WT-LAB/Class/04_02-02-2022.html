@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>02-02-2022</title>
+    </head>
+    <body>
+        <form action="submission.html" target="_blank">
+            <label for="email">Enter E-Mail : </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file"><br><br>
+
+            <label for="hidden">Hidden Input :</label>
+            <input type="hidden" name="hidden"><br><br>
+            
+            <label for="num">Number b/w 1 and 10 : </label>
+            <input type="number" name="number" id="num" min="1" max="10"><br><br>
+
+            <label for="search">Search :</label>
+            <input type="search" name="search" id="search"><br><br>
+
+            <label for="Phone">Phone Number</label>
+            <input type="phone" name="phone" id="Phone"
+            placeholder="+91-1234567890" pattern="+[0-9]{2}-[0-9]{10}"><br><br>
+
+            <label for="url">Url :</label>
+            <input type="url" name="url" id="url"><br><br>
+
+            <label for="week">Week : </label>
+            <input type="week" name="week" id="week"><br><br>
+
+            <input type="submit" value="submit">
+       </form>
+
+       <br>
+       <br>
+
+        <form action="submission.html" target="_blank">
+             <fieldset>
+                <legend>Adress Info</legend>
+                <textarea name="message" id="" cols="20" rows="10"></textarea><br><br>
+
+                <textarea name="message" id=""
+                style="width: 100px; height: 100px;"
+                ></textarea> <br><br>
+            </fieldset>
+            <input type="submit" >
+            
+       </form>
+       <br>
+       <br>
+       <form action="">
+           <label for="state"> Choose State : </label>
+           <select name="state" id="state">
+               <option value="not selected" disabled selected>Select</option>
+                <option value="odisha">Odisha</option>
+                <option value="MP">MP</option>
+                <option value="UP">UP</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="WB">WB</option>
+           </select>
+           <br>
+           <br>
+
+           <label for="state">State</label>
+           <!-- <input type="list" name="state" id="state"> -->
+           <datalist id="state" name="state">
+                <option value="odisha">Odisha</option>
+                <option value="MP">MP</option>
+                <option value="UP">UP</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="WB">WB</option>
+           </datalist>
+           <br>
+           <br>
+
+           <input type="submit" >
+       </form>
+        
+    </body>
+</html>

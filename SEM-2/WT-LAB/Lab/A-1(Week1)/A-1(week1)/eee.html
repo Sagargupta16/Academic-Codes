@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>CSE</title>
+        <style>
+            table{
+                border: 5px solid rgb(0, 0, 255);
+                background-color: rgb(77, 204, 204);
+                border-radius: 5px;
+            }
+            select{
+                border: 2px solid gray;
+                border-radius: 5px;
+                background-color:lightgray;
+            }
+        </style>
+    </head>
+    <body bgcolor="cyan">
+        <center>
+            <font color="blue">
+                <h1>Electrical and Electronics Engineering</h1>
+            </font>
+        </center>
+        <br>
+        <table align="center">
+            <tr>
+                <td>Text Books</td>
+                <td>
+                    <select >
+                        <option value="select the book" selected>Select the book
+                        <option value="Concepts in Electric Circuits">Concepts in Electric Circuits
+                        <option value="Introduction to Electronic Engineering">Introduction to Electronic Engineering
+                        <option value="Electrical Power">Electrical Power
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td><input type="number" id="q"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <form action="order.html">
+                        <input type="submit" value=ok />
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <pre> Cost of one book is"500" + shipping "100" </pre>
+        </center>
+    </body>
+</html> 

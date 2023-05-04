@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 27-01-2022</title>
+        <style>
+            td,th{
+                width: 50%;
+                border: 2px solid red;
+                padding: 10px 10px 10px 10px;
+                background-color: wheat;
+            }
+            table{
+                border: 3px solid black; 
+                width: 100%;
+                border-spacing: 10px;
+                background-color:yellow;
+            }
+            table,td,th{
+                /* border-collapse : collapse; */
+                border-radius: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Information</caption>
+            <thead>
+                <tr style="height: 40px;">
+                    <th>Email</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>abc@gmail.com</td>
+                    <td>ABC</td>
+                </tr>
+                <tr>
+                    <td>def@gmail.com</td>
+                    <td>DEF</td>
+                </tr>
+                <tr>
+                    <td>ghi@gmail.com</td>
+                    <td>GHI</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <caption>Information</caption>
+            <tbody>
+                <tr>
+                    <th rowspan="3">NAME</th>
+                    <td>ABC</td>
+                </tr>
+                <tr>
+                    <td>DEF</td>
+                </tr>
+                <tr>
+                    <td>GHI</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

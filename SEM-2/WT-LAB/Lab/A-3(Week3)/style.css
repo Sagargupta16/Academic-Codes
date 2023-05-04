@@ -1,0 +1,29 @@
+p.left{
+    text-align:left;
+    color:blue;
+    font-family:Cambria;
+    font-size:large;
+    text-indent:20px;
+}
+p.center{
+    text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:-3px;
+    word-spacing:20px;
+    font-size:larger;
+}
+p.right{
+    text-align:right;
+    color:red;
+    font-family:Tahoma;
+    font-size:15pt;
+    text-decoration:overline;
+    font-style:italic;
+}
+b#headline{
+    color:orange;
+    font-size:22px;
+    font-family:arial;
+    text-decoration:underline;
+} 

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>factorial</title>
+        <style>
+            form{
+                text-align: center;
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form name=frm>
+            <input type=button value='factorial' onclick="factorialcalc()">
+        </form>
+        <script>
+            function factorialcalc(){
+                number = prompt("enter a number, i'll calculate its factorial", 
+                "whole numbers bigger than zero, please")
+                factorial = 1
+                for (i=1; i <= number; i++)
+                {
+                    factorial = factorial * i
+                }
+                alert("the factorial of " + number + " is " + factorial)
+            }
+        </script>
+    </body>
+</html> 

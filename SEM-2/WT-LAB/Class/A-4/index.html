@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-4</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="ValidForm.js"></script>
+    </head>
+    <body>
+        <h1>Assignment-4</h1>
+        <p>Name: Sagar Gupta</p>
+        <p>Roll no.: 21MCF1R47</p>
+        <fieldset id="form">
+            <legend id="main">Form</legend>
+            <form id="form" onsubmit='return formValidator()' method="post"
+action="http://localhost/phpt/result.php">
+                <fieldset id="personal-details">
+                    <legend>
+                        Personal Details
+                    </legend>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="fname-label" for="fname">First Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="fname" id="fname" class="input-field" placeholder="Enter your First Name" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="lname-label" for="lname">Last Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="lname" id="lname" class="input-field" placeholder="Enter your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="email-label" for="email">Email: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="email" name="mail" id="mail" class="input-field" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="mnumber-label" for="mn">Mobile Number: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="text" name="mobile" id="mobile" class="input-field" placeholder="Mobile Number" required>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="address">Address: </label>
+                        </div>
+                        <div class="rightTab">
+                            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="add" placeholder="Enter your address here..."></textarea>
+                        </div>
+                    </div>
+                     <div class="rowTab">
+                        <div class="labels">
+                            <label id="Password-label" for="Password">Password: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="password" name="pswrd" id="pswrd" class="input-field" placeholder="Password" required>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">reset</button>
+            </form>
+            <form action="http://localhost/phpt/display.php">
+                <button id="display">Display</button>
+            </form>
+        </fieldset>
+    </body>
+</html>

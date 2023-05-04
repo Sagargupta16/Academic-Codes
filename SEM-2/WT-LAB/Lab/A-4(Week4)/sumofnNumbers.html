@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>sum of n numbers using popup boxes</title>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            form{
+                text-align: center;
+                margin: 30px;
+            }
+        </style>
+        <script language='javascript'>
+            function addsum()
+            {
+                alert("you're going to give me a list of numbers. i'm going to add them together for you");
+                var keepgoing = true
+                var sumofnums = 0
+                while (keepgoing) {
+                    sumofnums = sumofnums + parseInt(prompt("what's the next number to add?"))
+                    keepgoing = confirm("add another number?")
+                }
+                alert("the sum of all your numbers is " + sumofnums)
+            }
+        </script>
+    </head>
+    <body>
+        <form name=frm>
+            <input type=button value='sum of n numbers' onclick="addsum();">
+        </form>
+    </body>
+</html>

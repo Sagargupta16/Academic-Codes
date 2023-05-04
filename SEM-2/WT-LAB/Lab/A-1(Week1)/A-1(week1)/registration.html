@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            body {
+                margin-top: 40px;
+                background-color: #0b0c10;
+                text-align: center;
+                min-width: 320px;
+            }
+            p,h1{
+                display: inline-block;
+                padding: 0 5%;
+                background-color: #006172;
+                border: 3px solid rgb(0, 247, 255) ;
+                border-radius: 15px;
+                font-size: 200%;
+                color: rgb(250, 250, 250);
+                margin: 20px;
+                margin-top: -10px;
+            }
+            h1{
+                display: block;
+            }
+            legend{
+                border: 2px solid black;
+                border-radius: 15px;
+                background-color: #65a9fc;
+                width: 40%;
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            #main{
+                border: 4px solid rgb(0, 0, 0);
+                border-radius: 15px;
+                background-color: #34e1ff;
+                width: 40%;
+                font-size: 30px;
+                font-weight: bolder
+            }
+            #form {
+                background-color: #436285;
+                border: 5px solid white;
+                margin: 20px auto;
+                border-radius: 10px;
+                width: 80%;
+                padding: 10px;
+                padding-top: 20px;
+            }
+            #personal-details{
+                border: 5px solid black;
+                background-color: #a9e7fa;
+                margin: 20px auto;
+                border-radius: 10px;
+                width: 60%;
+                padding: 10px;
+                padding-top: 20px;
+            }
+            .labels {
+                display: inline-block;
+                text-align: right;
+                width: 33%;
+                padding: 5px;
+                vertical-align: top;
+                margin-top: 10px;
+            }
+            .rowTab{
+                font-size: 20px;
+                font-weight: 700;
+                color: black;
+                margin: -15px;
+                margin-bottom: 5px;
+            }
+            .rightTab {
+                display: inline-block;
+                text-align: left;
+                width: 50%;
+                vertical-align: middle;
+            }
+            .input-field {
+                height: 20px;
+                width: 60%;
+                padding: 5px;
+                margin: 10px -5px;
+                border: 2px solid gray;
+                border-radius: 5px;
+            }
+            #submit,#reset {
+                background-color: #66fcf1;
+                border-radius: 10px;
+                color: black;
+                font-size: large;
+                height: 40px;
+                width: 96px;
+                margin: 10px;
+                border: 1px solid gray;
+            }
+            #submit:hover,#reset:hover {
+                background-color: #45a29e;
+                border-radius: 10px;
+                color: black;
+                font-size: large;
+                height: 40px;
+                width: 96px;
+                margin: 10px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body bgcolor="#E4F0F8">
+        <fieldset id="form">
+            <legend id="main">Register</legend>
+            <form action="">
+                <fieldset id="personal-details">
+                    <legend>
+                        Personal Details
+                    </legend>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="fname-label" for="fname">First Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="fname" id="fname" class="input-field" placeholder="Enter your First Name" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="lname-label" for="lname">Last Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="lname" id="lname" class="input-field" placeholder="Enter your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="email-label" for="email">Email: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="mnumber-label" for="mn">Mobile Number: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="number" name="mn" id="mn" min="1111111111" max="9999999999" class="input-field" placeholder="Mobile Number" required>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="address">Address: </label>
+                        </div>
+                        <div class="rightTab">
+                            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="address" placeholder="Enter your address here..."></textarea>
+                        </div>
+                    </div>
+                     <div class="rowTab">
+                        <div class="labels">
+                            <label id="Password-label" for="Password">Password: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input style="margin-top: 16px;" autofocus type="password" name="Password" id="Password" class="input-field" placeholder="Password" required>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">reset</button>
+            </form>
+        </fieldset>
+    </body> 
+</html>

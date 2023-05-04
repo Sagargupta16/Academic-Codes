@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(169, 252, 252);
+}
+a{
+  color: #149ddd;
+  text-decoration: none;
+}
+a:hover {
+  color: #37b3ed;
+  text-decoration: none;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+  text-decoration: underline;
+}
+#about,#education,#skills{
+  height: 1000px;
+  margin-bottom: 20px;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  padding: 0 15px;
+  background: #01142c;
+}
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+  border-radius: 100%;
+}
+#header .profile h1 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-align: center;
+}
+#navbar .line li{
+  font-weight: 600;
+  align-items: center;
+  border-radius: 15%;
+  background-color: #003d8d;
+  margin: 10px;
+}
+#navbar .line li:hover{
+  background-color: #0096db;
+  padding: 2px 0;
+}
+#navbar  .nav-link{
+  display: block;
+  text-align: center;
+}
+#navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#navbar {
+  margin-top: 40px;
+}
+#main {
+  margin-left: 25%;
+  margin-top: -20px;
+}
+#navbar a{
+  color: #a8a9b4;
+  padding: 12px 15px;
+}
+#navbar a:hover {
+  color: #ffffff;
+}
+section {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.section-bg {
+  background: #f5f8fd;
+}
+#about {
+  padding-bottom: 30px;
+}
+#about p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+#education .row .ed{
+  padding-bottom: 10px;
+  background-color: #00aeff;
+  border: 2px solid blue;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+#education .row .ed .degree{
+  font-size: 120%;
+  font-weight: 600;
+  color: #012c66;
+
+  padding-left: 20px;
+}
+#education .row .ed .college{
+  font-size: 110%;
+  font-weight: 500;
+  color: #17009b;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+#education .row .ed .passed{
+  font-size: 100%;
+  font-weight: 500;
+  text-align: right;
+  color: #15008d;
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+
+
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  display: block;
+  font-size: 110%;
+  font-weight: 600;
+  color: #050d18;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #ffffff;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #09648f;
+}

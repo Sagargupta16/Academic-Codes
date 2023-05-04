@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Top Frame</title>
+        <style>
+            img{
+                border-radius: 10px;
+                margin: 5px;
+            }
+            body{
+                background-color: #0040ff;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #0000af;
+              border-radius: 10px;
+            }
+            li {
+              float: left;
+              width: 20%;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            li a:hover {
+              background-color: #00007f;
+            }
+            li a:active {
+              background-color: black;
+            }
+            marquee{
+                border-radius: 20px;
+                background-color: yellow;
+                width: 60%;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/logo1.png" width="125" height="115" align="left">
+        <img src="images/NITW.png" width="325" height="115" align="right">
+        <center>
+            <marquee behavior="alternate">
+                <font face="Brush Script MT" size="8" color="blue">
+                    <b><i>Online Book Library</i></b>
+                </font>
+            </marquee> 
+            <br>
+            <font face="Brush Script" size="6" color="white">
+                <b>Created & Maintained By NITW</b>
+            </font>
+        </center>
+        <br>
+        <br>
+        <ul>
+
+          <li><a href="index.html" target="_parent"> Main HOME </a></li>
+          <li><a href="home.html" target="_parent"> Library HOME </a></li>
+          <li><a href="login.html" target="rightframe">LOGIN</a></li>
+          <li><a href="registration.html" target="rightframe">REGISTER </a></li>
+          <li> <a href="catalogue.html" target="rightframe">CATALOGUE</a></li>
+        </ul>
+    </body>
+</html> 

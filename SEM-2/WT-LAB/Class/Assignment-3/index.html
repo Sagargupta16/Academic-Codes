@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Name: Sagar Gupta</p>
+        <p>Roll no.: 21MCF1R47</p>
+        <fieldset id="form">
+            <legend id="main">Bio Data Form</legend>
+            <form action="">
+                <fieldset id="personal-details">
+                    <legend>
+                        Personal Details
+                    </legend>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="name-label" for="name">Full Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="email-label" for="email">Email: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="number-label" for="age">Age: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="gender">Gender: </label>
+                        </div>
+                        <div class="rightTab">
+                            <select id="dropdown" name="gender" class="dropdown" required>
+                            <option disabled selected>Select an option</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                            </select>
+                        </div>
+                    </div>
+                
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="dob-label" for="dob">Birth Date: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="date" name="dob" id="iddob" class="input-field" required>
+                        </div>
+                    </div>
+                
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="address">Address: </label>
+                        </div>
+                        <div class="rightTab">
+                            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="address" placeholder="Enter your address here..."></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset id="education">
+                    <legend>Education</legend>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="college" for="college">College: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="college" id="college" class="input-field" placeholder="Enter College Name" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="course" for="course">Course: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="course" id="course" class="input-field" placeholder="Enter Course(MCA,MBA,...)" required>
+                        </div>
+                    </div>
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="department">Department: </label>
+                        </div>
+                        <div class="rightTab">
+                            <select id="dropdown" name="department" class="dropdown" required>
+                            <option disabled selected>Select an option</option>
+                            <option value="cse">CSE</option>
+                            <option value="ece">ECE</option>
+                            <option value="eee">EEE</option>
+                            <option value="mech">MECHANICAL</option>
+                            <option value="civil">CIVIL</option>
+                            <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>  
+                </fieldset>
+                <fieldset id="skills">
+                    <legend>Skills</legend>
+                    <div class="rowTab">
+                        <input type = "checkbox" name = "html" value = "on"> HTML </input>
+                        <input type = "checkbox" name = "css" value = "on"> CSS </input>
+                        <input type = "checkbox" name = "c++" value = "on"> C++ </input>
+                        <input type = "checkbox" name = "java" value = "on"> Java </input>
+                        <input type = "checkbox" name = "javascript" value = "on"> Javascript </input>
+                        <input type = "checkbox" name = "c#" value = "on"> C# </input>
+                        <input type = "checkbox" name = "c" value = "on"> C </input>
+                    </div>
+                </fieldset>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">reset</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
