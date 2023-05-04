@@ -10,7 +10,6 @@ void printTree(vector<vector<string>> data, vector<string> attributes){
         cout << endl;
     }
 }
-
 void printData(vector<string> head, vector<vector<string>> data){
     cout << "------------------------------------------------------------------" << endl;
     for (int i = 0; i < head.size(); i++){
@@ -27,7 +26,6 @@ void printData(vector<string> head, vector<vector<string>> data){
     }
     cout << "------------------------------------------------------------------" << endl;
 }
-
 double findEntropy(vector<vector<string>> data){
     int n = data.size(), m = data[0].size();
     int yes = 0, no = 0;
@@ -41,7 +39,6 @@ double findEntropy(vector<vector<string>> data){
     double entropy = -1 * p * log2(p) - q * log2(q);
     return entropy;
 }
-
 double findEntropyWRT(vector<vector<string>> data, int col){
     int n = data.size(), m = data[0].size();
     unordered_map<string, int> mp;
@@ -66,7 +63,6 @@ double findEntropyWRT(vector<vector<string>> data, int col){
     }
     return entropyWRT;
 }
-
 void performDT(vector<vector<string>> data, vector<string> attributes, vector<string> &paths, string s){
     int n = data.size(), m = data[0].size();
     double entropy = findEntropy(data);
@@ -132,9 +128,7 @@ void performDT(vector<vector<string>> data, vector<string> attributes, vector<st
         cout << "------------------------------------------------------------------" << endl << endl;
     }
 }
-
-int main()
-{
+int main(){
     vector<string> attributes = { "Age", "Income", "Student", "Credit_Rating" , "Buys_Computer" };
     vector<vector<string>> data = {
         { "Youth", "High", "No", "Fair", "No" },
@@ -152,8 +146,6 @@ int main()
         { "Middle_Aged", "High", "Yes", "Fair", "Yes" },
         { "Senior", "Medium", "No", "Excellent", "No" }
     };
-
-
     cout << endl << endl << "Decision Tree For "<<attributes[attributes.size()-1]<<" as Final Result" << endl;
     printData(attributes, data);
     vector<string> paths;
