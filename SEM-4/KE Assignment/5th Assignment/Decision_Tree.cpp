@@ -66,10 +66,11 @@ double findEntropyWRT(vector<vector<string>> data, int col){
 void performDT(vector<vector<string>> data, vector<string> attributes, vector<string> &paths, string s){
     int n = data.size(), m = data[0].size();
     double entropy = findEntropy(data);
+    printData(attributes, data);
     if (entropy == 0){
-        paths.push_back(s + data[0][m - 1]);
+        paths.push_back(s + attributes[attributes.size()-1] +"-->" + data[0][m - 1]);
         cout << "Decision: " << data[0][m - 1] << endl;
-        cout << endl << endl;
+        cout << "------------------------------------------------------------------" << endl << endl;
         return;
     }
     cout << "Entropy: " << entropy << endl;
@@ -119,13 +120,7 @@ void performDT(vector<vector<string>> data, vector<string> attributes, vector<st
         for (int j = 0; j < attributes.size(); j++){
             if (j != maxGainCol) newAttributes.push_back(attributes[j]);
         }
-        printData(newAttributes, newData[i]);
-        if (findEntropy(newData[i]) == 0){
-            paths.push_back(t+attributes[attributes.size()-1]+"--"+newData[i][0][newData[i][0].size()-1]);
-            cout << "Decision: " << newData[i][0][newData[i][0].size() - 1] << endl;
-        }
-        else performDT(newData[i], newAttributes, paths, t);
-        cout << "------------------------------------------------------------------" << endl << endl;
+        performDT(newData[i], newAttributes, paths, t);
     }
 }
 int main(){
@@ -147,7 +142,6 @@ int main(){
         { "Senior", "Medium", "No", "Excellent", "No" }
     };
     cout << endl << endl << "Decision Tree For "<<attributes[attributes.size()-1]<<" as Final Result" << endl;
-    printData(attributes, data);
     vector<string> paths;
     performDT(data, attributes, paths, "");
     cout << "All Paths: " << endl;
