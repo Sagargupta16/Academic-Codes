@@ -1,0 +1,2 @@
+# Academic-Codes
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/36c6980ea2cf4f21959d41fd85376cd7)](https://app.codacy.com/gh/Sagargupta16/Academic-Codes?utm_source=github.com&utm_medium=referral&utm_content=Sagargupta16/Academic-Codes&utm_campaign=Badge_Grade)
