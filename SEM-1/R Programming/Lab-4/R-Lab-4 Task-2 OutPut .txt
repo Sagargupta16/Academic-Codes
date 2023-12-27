@@ -1,0 +1,6 @@
+> source("D:/R codes Academic/R-Lab-4 Task-2.R")
+[1] 523
+[1] -100
+[1] 523
+[1] -100
+> 

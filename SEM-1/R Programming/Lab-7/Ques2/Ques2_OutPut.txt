@@ -1,0 +1,21 @@
+> source("D:/R codes Academic/SGMC21107_R-Lab-7/Ques2.R", echo=TRUE)
+
+> # 2) Find skewness and draw the histogram without using 
+> #    inbuilt skewness method on the following data :-
+> #    5, 6, 10, 15, 18, 89, 35, 89 .... [TRUNCATED] 
+
+> mean_data <- sum(data)/length(data)
+
+> skewness1<-sum((data-mean_data)^3)/length(data)/sqrt((sum((data-mean_data)^2)/length(data))^3)
+
+> png(file="histQues2.png")
+
+> print(skewness1)
+[1] 0.6401836
+
+> hist(data)
+
+> dev.off()
+null device 
+          1 
+> 

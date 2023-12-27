@@ -1,0 +1,26 @@
+> source("D:/R codes Academic/sgmc21107/R-Lab-4 Task-6.R")
+Factorial of :6
+[1] 720
+Square Root of :36
+[1] 6
+Exponantial of :100
+[1] 2.688117e+43
+log of :100
+to base :10
+[1] 2
+Cosine of angle :60
+[1] 0.5
+Enter String :Sagar Gupta is Me AaAaAa
+[1] 24
+[1] "gar"
+[1] "SAGAR GUPTA IS ME AAAAAA"
+[1] "sagar gupta is me aaaaaa"
+[[1]]
+[1] "Sagar"  "Gupta"  "is"     "Me"     "AaAaAa"
+
+[1] 4.941176
+ [1] 1 2 3 3 4 4 4 5 5 5 5 6 6 7 7 8 9
+[1] 5
+[1] 2.105665
+[1] 4.433824
+> 

@@ -1,0 +1,19 @@
+> #Q-1 ) Find the residual , slope , intercept , std error , t value ,using R program :-
+> 
+> 
+> year = c(2001,2002,2003,2004,2005,2006,2007,2008,2009 .... [TRUNCATED] 
+
+> amount = c(40,39,41,29,32,30,33,15,10,11,20,24,10,15)
+
+> lm(amount~year)
+
+Call:
+lm(formula = amount ~ year)
+
+Coefficients:
+(Intercept)         year  
+   4626.736       -2.292  
+
+
+> #summary(lm(amount~year))
+> 
