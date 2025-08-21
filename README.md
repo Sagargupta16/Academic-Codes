@@ -1,5 +1,11 @@
 # Academic-Codes 🎓
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Sagargupta16/Academic-Codes)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sagargupta16/Academic-Codes)
+![GitHub stars](https://img.shields.io/github/stars/Sagargupta16/Academic-Codes?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Sagargupta16/Academic-Codes?style=social)
+![GitHub license](https://img.shields.io/github/license/Sagargupta16/Academic-Codes)
+
 A comprehensive collection of academic programming assignments, projects, and practice code organized by semester.
 
 ## 📚 Repository Overview
