@@ -1,131 +1,103 @@
-# Academic-Codes 🎓
+# Academic Codes
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Sagargupta16/Academic-Codes)
-![GitHub last commit](https://img.shields.io/github/last-commit/Sagargupta16/Academic-Codes)
-![GitHub stars](https://img.shields.io/github/stars/Sagargupta16/Academic-Codes?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Sagargupta16/Academic-Codes?style=social)
-![GitHub license](https://img.shields.io/github/license/Sagargupta16/Academic-Codes)
+A comprehensive collection of academic programming assignments and projects spanning 5 semesters of MCA coursework at NIT Warangal.
 
-A comprehensive collection of academic programming assignments, projects, and practice code organized by semester.
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
-## 📚 Repository Overview
+## Overview
 
-This repository contains all my academic work from computer science courses, organized by semester. It includes implementations in various programming languages including C++, Python, R, and web technologies.
+This repository contains all academic work from the MCA program, organized by semester. It includes implementations in C++, Python, R, and web technologies -- covering data structures, algorithms, machine learning, deep learning, image processing, cloud computing, and more.
 
-## 🗂️ Repository Structure
+## Repository Structure
 
-```text
+```
 Academic-Codes/
-├── SEM-1/          # First Semester
-├── SEM-2/          # Second Semester  
-├── SEM-3/          # Third Semester
-├── SEM-4/          # Fourth Semester
-├── SEM-5/          # Fifth Semester
-└── README.md       # This file
+├── SEM-1/          # Foundation courses
+├── SEM-2/          # Core CS courses
+├── SEM-3/          # Advanced topics
+├── SEM-4/          # Specializations
+├── SEM-5/          # Research & applied ML
+└── README.md
 ```
 
-## 📖 Semester Contents
+## Semester Contents
 
-### 🔹 Semester 1
+### Semester 1 -- Foundations
 
-- **C++ OOPS Project**: Object-Oriented Programming projects
-- **C++ Self**: Self-practice C++ programs
-- **CO (Computer Organization)**: Page replacement algorithms (FIFO, LFU, Optimal)
-- **EndExamPrograms**: End semester examination programs
-- **PSP Sem-1**: Problem Solving with Programming
-- **R Programming**: Statistical programming assignments
-- **SQT (Software Quality Testing)**: Testing methodologies and programs
+| Subject | Description | Language |
+|---------|-------------|----------|
+| C++ OOPS Project | Object-Oriented Programming projects | C++ |
+| C++ Self | Self-practice C++ programs | C++ |
+| CO (Computer Organization) | Page replacement: FIFO, LFU, Optimal | C++ |
+| EndExamPrograms | End semester exam programs | C++ |
+| PSP | Problem Solving with Programming | C++ |
+| R Programming | Statistical programming assignments | R |
+| SQT | Software Quality Testing | C++ |
 
-### 🔹 Semester 2
+### Semester 2 -- Core CS
 
-- **DS-LAB**: Data Structures laboratory assignments
-- **Ds-class**: Data Structures class programs (Postfix conversion, Polynomial operations)
-- **OOPS-LAB**: Object-Oriented Programming laboratory
-- **WT-LAB**: Web Technology laboratory
+| Subject | Description | Language |
+|---------|-------------|----------|
+| DS-LAB | Data Structures lab assignments | C++ |
+| Ds-class | Postfix conversion, polynomial operations | C++ |
+| OOPS-LAB | Object-Oriented Programming lab | C++ |
+| WT-LAB | Web Technology lab | HTML/CSS/JS |
 
-### 🔹 Semester 3
+### Semester 3 -- Advanced Topics
 
-- **ADB**: Advanced Database concepts
-- **ADS**: Advanced Data Structures (B-Trees, Red-Black Trees, Quad Trees, etc.)
-- **AI**: Artificial Intelligence assignments
-- **CCN**: Computer Communication Networks
-- **OS**: Operating Systems (Scheduling, Memory Management, Disk Scheduling)
+| Subject | Description | Language |
+|---------|-------------|----------|
+| ADB | Advanced Database concepts | SQL |
+| ADS | B-Trees, Red-Black Trees, Quad Trees | C++ |
+| AI | Artificial Intelligence assignments | Python |
+| CCN | Computer Communication Networks | C++ |
+| OS | Scheduling, Memory Mgmt, Disk Scheduling | C++ |
 
-### 🔹 Semester 4
+### Semester 4 -- Specializations
 
-- **CC-Assignments**: Cloud Computing assignments
-- **IP-Assignments**: Image Processing assignments (Jupyter Notebooks)
-- **KE-Assignments**: Knowledge Engineering assignments
-- **PP-Assignments**: Python Programming assignments (Jupyter Notebooks)
+| Subject | Description | Language |
+|---------|-------------|----------|
+| CC-Assignments | Cloud Computing assignments | Various |
+| IP-Assignments | Image Processing (Jupyter Notebooks) | Python |
+| KE-Assignments | Knowledge Engineering | Python |
+| PP-Assignments | Python Programming (Jupyter Notebooks) | Python |
 
-### 🔹 Semester 5
+### Semester 5 -- Research & Applied ML
 
-- **DL**: Deep Learning assignments (Jupyter Notebooks)
-- **IOT & NS LAB**: Internet of Things and Network Security lab
-- **ML-LAB**: Machine Learning laboratory assignments
+| Subject | Description | Language |
+|---------|-------------|----------|
+| DL | Deep Learning assignments (Jupyter Notebooks) | Python |
+| IOT & NS LAB | Internet of Things & Network Security | Python |
+| ML-LAB | Machine Learning laboratory | Python |
 
-## 🛠️ Technologies Used
+## Getting Started
 
-- **Programming Languages**: C++, Python, R
-- **Development Environments**: Visual Studio Code, Jupyter Notebooks
-- **Version Control**: Git & GitHub
-- **Documentation**: Markdown
+```bash
+git clone https://github.com/Sagargupta16/Academic-Codes.git
+cd Academic-Codes
 
-## 🚀 Getting Started
+# Navigate to specific semester
+cd SEM-X
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Sagargupta16/Academic-Codes.git
-   cd Academic-Codes
-   ```
+# Compile C++ programs
+g++ program_name.cpp -o program_name && ./program_name
 
-2. **Navigate to specific semester**:
-   ```bash
-   cd SEM-X  # Replace X with semester number
-   ```
+# Run Python programs
+python program_name.py
 
-3. **Compile C++ programs**:
-   ```bash
-   g++ program_name.cpp -o program_name
-   ./program_name
-   ```
+# Open Jupyter Notebooks
+jupyter notebook notebook_name.ipynb
+```
 
-4. **Run Python programs**:
-   ```bash
-   python program_name.py
-   ```
+## Technologies
 
-5. **Open Jupyter Notebooks**:
-   ```bash
-   jupyter notebook notebook_name.ipynb
-   ```
+- **Languages**: C++, Python, R, HTML/CSS/JS, SQL
+- **Tools**: Jupyter Notebooks, Visual Studio Code, GCC
+- **Libraries**: NumPy, Pandas, scikit-learn, TensorFlow, OpenCV, Matplotlib
 
-## 📝 Code Organization
+## License
 
-- Each semester has its own folder with subject-wise organization
-- C++ source files (`.cpp`) and header files (`.h`) are included
-- Jupyter Notebooks (`.ipynb`) for Python-based assignments
-- README files in each semester folder explain the specific contents
-
-## 🤝 Contributing
-
-This is a personal academic repository, but suggestions and improvements are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-- **Author**: Sagar Gupta
-- **GitHub**: [@Sagargupta16](https://github.com/Sagargupta16)
-
-## 📄 License
-
-This project is for educational purposes. Feel free to use the code for learning and reference.
-
----
-
-⭐ **Star this repository if you find it helpful!**
+Educational use. Feel free to reference for learning purposes.
