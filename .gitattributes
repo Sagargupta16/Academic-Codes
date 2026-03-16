@@ -1,2 +1,3 @@
 * text=auto eol=lf
 # v1
+*.ipynb linguist-language=Python
