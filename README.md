@@ -14,7 +14,7 @@ This repository contains all academic work from the MCA program, organized by se
 ## Repository Structure
 
 ```
-Academic-Codes/
+academic-codes/
 ├── SEM-1/          # Foundation courses
 ├── SEM-2/          # Core CS courses
 ├── SEM-3/          # Advanced topics
@@ -33,7 +33,7 @@ Academic-Codes/
 | C++ Self | Self-practice C++ programs | C++ |
 | CO (Computer Organization) | Page replacement: FIFO, LFU, Optimal | C++ |
 | EndExamPrograms | End semester exam programs | C++ |
-| PSP | Problem Solving with Programming | C++ |
+| PSP Sem-1 | Problem Solving with Programming | C++ |
 | R Programming | Statistical programming assignments | R |
 | SQT | Software Quality Testing | C++ |
 
@@ -76,8 +76,8 @@ Academic-Codes/
 ## Getting Started
 
 ```bash
-git clone https://github.com/Sagargupta16/Academic-Codes.git
-cd Academic-Codes
+git clone https://github.com/Sagargupta16/academic-codes.git
+cd academic-codes
 
 # Navigate to specific semester
 cd SEM-X
@@ -100,4 +100,4 @@ jupyter notebook notebook_name.ipynb
 
 ## License
 
-Educational use. Feel free to reference for learning purposes.
+MIT License -- see [LICENSE](LICENSE). Feel free to reference for learning purposes.
