@@ -52,6 +52,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Java
+*.class
+
 # Python
 __pycache__/
 *.py[cod]
